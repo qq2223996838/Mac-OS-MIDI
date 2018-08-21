@@ -7,24 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7608EEC320DFB049007E7C3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608EEC220DFB049007E7C3E /* AppDelegate.m */; };
-		7608EEC620DFB049007E7C3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608EEC520DFB049007E7C3E /* ViewController.m */; };
 		7608EEC820DFB049007E7C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7608EEC720DFB049007E7C3E /* Assets.xcassets */; };
-		7608EECB20DFB049007E7C3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7608EEC920DFB049007E7C3E /* Main.storyboard */; };
 		7608EECE20DFB049007E7C3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7608EECD20DFB049007E7C3E /* main.m */; };
+		E6C93811212BA563008E679E /* MIDIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C9380D212BA563008E679E /* MIDIManager.m */; };
+		E6C93812212BA563008E679E /* CRC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C93810212BA563008E679E /* CRC.m */; };
+		E6C93816212BA56A008E679E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C93815212BA56A008E679E /* AppDelegate.m */; };
+		E6C9381C212BA572008E679E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C93818212BA572008E679E /* ViewController.m */; };
+		E6C9381D212BA572008E679E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C93819212BA572008E679E /* Main.storyboard */; };
+		E6C93822212BA58D008E679E /* CustomProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C93821212BA58D008E679E /* CustomProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7608EEBE20DFB049007E7C3E /* MacOS_MIDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOS_MIDI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7608EEC120DFB049007E7C3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7608EEC220DFB049007E7C3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7608EEC420DFB049007E7C3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7608EEC520DFB049007E7C3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7608EEC720DFB049007E7C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7608EECA20DFB049007E7C3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7608EECC20DFB049007E7C3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7608EECD20DFB049007E7C3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7608EECF20DFB049007E7C3E /* MacOS_MIDI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOS_MIDI.entitlements; sourceTree = "<group>"; };
+		E6C9380C212BA563008E679E /* MIDIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIManager.h; sourceTree = "<group>"; };
+		E6C9380D212BA563008E679E /* MIDIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDIManager.m; sourceTree = "<group>"; };
+		E6C9380F212BA563008E679E /* CRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRC.h; sourceTree = "<group>"; };
+		E6C93810212BA563008E679E /* CRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRC.m; sourceTree = "<group>"; };
+		E6C93814212BA56A008E679E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6C93815212BA56A008E679E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6C93818212BA572008E679E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6C9381A212BA572008E679E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6C9381B212BA572008E679E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6C93820212BA58D008E679E /* CustomProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomProgress.h; sourceTree = "<group>"; };
+		E6C93821212BA58D008E679E /* CustomProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,17 +66,84 @@
 		7608EEC020DFB049007E7C3E /* MacOS_MIDI */ = {
 			isa = PBXGroup;
 			children = (
-				7608EEC120DFB049007E7C3E /* AppDelegate.h */,
-				7608EEC220DFB049007E7C3E /* AppDelegate.m */,
-				7608EEC420DFB049007E7C3E /* ViewController.h */,
-				7608EEC520DFB049007E7C3E /* ViewController.m */,
+				E6C9381E212BA584008E679E /* Base */,
+				E6C9380A212BA563008E679E /* Entity */,
+				E6C93813212BA56A008E679E /* Other */,
+				E6C93817212BA572008E679E /* VC */,
 				7608EEC720DFB049007E7C3E /* Assets.xcassets */,
-				7608EEC920DFB049007E7C3E /* Main.storyboard */,
 				7608EECC20DFB049007E7C3E /* Info.plist */,
 				7608EECD20DFB049007E7C3E /* main.m */,
 				7608EECF20DFB049007E7C3E /* MacOS_MIDI.entitlements */,
 			);
 			path = MacOS_MIDI;
+			sourceTree = "<group>";
+		};
+		E6C9380A212BA563008E679E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E6C9380B212BA563008E679E /* MIDI */,
+				E6C9380E212BA563008E679E /* CRC */,
+			);
+			name = Entity;
+			path = "../../Mac-OS-MIDI-master/MacOS_MIDI/Entity";
+			sourceTree = "<group>";
+		};
+		E6C9380B212BA563008E679E /* MIDI */ = {
+			isa = PBXGroup;
+			children = (
+				E6C9380C212BA563008E679E /* MIDIManager.h */,
+				E6C9380D212BA563008E679E /* MIDIManager.m */,
+			);
+			path = MIDI;
+			sourceTree = "<group>";
+		};
+		E6C9380E212BA563008E679E /* CRC */ = {
+			isa = PBXGroup;
+			children = (
+				E6C9380F212BA563008E679E /* CRC.h */,
+				E6C93810212BA563008E679E /* CRC.m */,
+			);
+			path = CRC;
+			sourceTree = "<group>";
+		};
+		E6C93813212BA56A008E679E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E6C93814212BA56A008E679E /* AppDelegate.h */,
+				E6C93815212BA56A008E679E /* AppDelegate.m */,
+			);
+			name = Other;
+			path = "../../Mac-OS-MIDI-master/MacOS_MIDI/Other";
+			sourceTree = "<group>";
+		};
+		E6C93817212BA572008E679E /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				E6C9381B212BA572008E679E /* ViewController.h */,
+				E6C93818212BA572008E679E /* ViewController.m */,
+				E6C93819212BA572008E679E /* Main.storyboard */,
+			);
+			name = VC;
+			path = "../../Mac-OS-MIDI-master/MacOS_MIDI/VC";
+			sourceTree = "<group>";
+		};
+		E6C9381E212BA584008E679E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E6C9381F212BA58D008E679E /* processView */,
+			);
+			name = Base;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E6C9381F212BA58D008E679E /* processView */ = {
+			isa = PBXGroup;
+			children = (
+				E6C93820212BA58D008E679E /* CustomProgress.h */,
+				E6C93821212BA58D008E679E /* CustomProgress.m */,
+			);
+			name = processView;
+			path = "../../../Mac-OS-MIDI-master/MacOS_MIDI/Base/processView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6C9381D212BA572008E679E /* Main.storyboard in Resources */,
 				7608EEC820DFB049007E7C3E /* Assets.xcassets in Resources */,
-				7608EECB20DFB049007E7C3E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,19 +216,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7608EEC620DFB049007E7C3E /* ViewController.m in Sources */,
+				E6C9381C212BA572008E679E /* ViewController.m in Sources */,
+				E6C93812212BA563008E679E /* CRC.m in Sources */,
+				E6C93822212BA58D008E679E /* CustomProgress.m in Sources */,
+				E6C93816212BA56A008E679E /* AppDelegate.m in Sources */,
 				7608EECE20DFB049007E7C3E /* main.m in Sources */,
-				7608EEC320DFB049007E7C3E /* AppDelegate.m in Sources */,
+				E6C93811212BA563008E679E /* MIDIManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7608EEC920DFB049007E7C3E /* Main.storyboard */ = {
+		E6C93819212BA572008E679E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7608EECA20DFB049007E7C3E /* Base */,
+				E6C9381A212BA572008E679E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
